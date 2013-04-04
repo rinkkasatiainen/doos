@@ -17,12 +17,14 @@ Brief introdution how to get going!
 4. Add above + junit4.1 to your project
 5. Run tests, they should fail with this kind of message
   
- > java.lang.AssertionError: 
- > Expected: <true>
- >    but: was <false>
- >      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
- >      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
- >     [...]
+``
+ java.lang.AssertionError:
+ Expected: <true>
+    but: was <false>
+      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+     [...]
+``
 
 ### Tips
 
