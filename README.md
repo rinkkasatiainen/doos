@@ -16,21 +16,13 @@ Brief introdution how to get going!
 3. Fetch org.hamcrest:hamcrest-all:1.3 and org.mockito:mockito-all:1.9.5 to your project
 4. Add above + junit4.1 to your project
 5. Run tests, they should fail with this kind of message
-   ``
-  java.lang.AssertionError: 
- 
-  Expected: <true>
- 
-    but: was <false>
-
-      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-
-      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
-
-     [...]
-   ``
-
-
+  
+ > java.lang.AssertionError: 
+ > Expected: <true>
+ >    but: was <false>
+ >      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+ >      at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+ >     [...]
 
 ### Tips
 
