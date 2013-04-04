@@ -3,3 +3,5 @@ demo/demo.ipr
 demo/demo.iws
 demo/lib
 demo/out
+.swp
+*.swp
