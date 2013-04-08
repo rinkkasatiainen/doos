@@ -1,9 +1,20 @@
 package fi.rinkkasatiainen.doos;
 
 public interface Cell {
-    boolean doStuff();
 
-    void resurrect();
+	boolean isAlive();
+	
+	void addNeighbour(Cell c);
 
-    boolean isAlive();
+	void born();
+
+	void die();
+
+	void refreshAliveStatus();
+
+	void setAliveNeighboursCount(int i);
+
+	int getAliveNeighboursCount();
+
+	void setANeighbourDead();
 }
