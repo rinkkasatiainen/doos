@@ -17,4 +17,14 @@ public class TestFoo {
 
         assertThat(lookMa_I_canMock.doStuff(), equalTo(true));
     }
+
+    @Test
+    public void deadCellShouldBecomeAliveWhenItIsResurrected() throws Exception {
+        //arrange
+            Cell cell = new DeadCell();
+        //act
+            cell.resurrect();
+        //assert
+            assertThat(cell.isAlive(), equalTo(true));
+    }
 }
