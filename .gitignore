@@ -5,3 +5,6 @@ demo/lib
 demo/out
 .swp
 *.swp
+.zip
+.DS_Store
+*.zip
